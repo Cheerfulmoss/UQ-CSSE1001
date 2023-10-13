@@ -1,0 +1,334 @@
+Enter a player type: ironclad
+Enter a game file: games/game1.txt
+New encounter!
+
+MONSTERS
+---------------
+Monster 0
+Louse: 25/25 HP
+---------------
+
+
+
+PLAYER
+------------------------------------------------------
+IronClad
+HP: 80/80
+Energy: 3
+Hand: [Strike(), Strike(), Bash(), Strike(), Strike()]
+Block: 0 Strength: 0 Vulnerable: 0 Weak: 0
+------------------------------------------------------
+Enter a move: inspect deck
+
+[Strike(), Defend(), Defend(), Defend(), Defend()]
+
+Enter a move: inspect discard
+
+[]
+
+Enter a move: describe Strike
+
+Deal 6 damage.
+
+Enter a move: describe Bash
+
+Deal 7 damage. Gain 5 block.
+
+Enter a move: play Bash 0
+MONSTERS
+---------------
+Monster 0
+Louse: 18/25 HP
+---------------
+
+
+
+PLAYER
+----------------------------------------------
+IronClad
+HP: 80/80
+Energy: 1
+Hand: [Strike(), Strike(), Strike(), Strike()]
+Block: 5 Strength: 0 Vulnerable: 0 Weak: 0
+----------------------------------------------
+Enter a move: play Strike 0
+MONSTERS
+---------------
+Monster 0
+Louse: 12/25 HP
+---------------
+
+
+
+PLAYER
+------------------------------------
+IronClad
+HP: 80/80
+Energy: 0
+Hand: [Strike(), Strike(), Strike()]
+Block: 5 Strength: 0 Vulnerable: 0 Weak: 0
+------------------------------------
+Enter a move: play Strike 0
+
+Card application failed.
+
+Enter a move: end turn
+MONSTERS
+---------------
+Monster 0
+Louse: 12/25 HP
+---------------
+
+
+
+PLAYER
+--------------------------------------------------------
+IronClad
+HP: 79/80
+Energy: 3
+Hand: [Defend(), Defend(), Defend(), Defend(), Strike()]
+Block: 0 Strength: 0 Vulnerable: 0 Weak: 0
+--------------------------------------------------------
+Enter a move: play Strike 0
+MONSTERS
+--------------
+Monster 0
+Louse: 6/25 HP
+--------------
+
+
+
+PLAYER
+----------------------------------------------
+IronClad
+HP: 79/80
+Energy: 2
+Hand: [Defend(), Defend(), Defend(), Defend()]
+Block: 0 Strength: 0 Vulnerable: 0 Weak: 0
+----------------------------------------------
+Enter a move: play Defend
+MONSTERS
+--------------
+Monster 0
+Louse: 6/25 HP
+--------------
+
+
+
+PLAYER
+------------------------------------
+IronClad
+HP: 79/80
+Energy: 1
+Hand: [Defend(), Defend(), Defend()]
+Block: 5 Strength: 0 Vulnerable: 0 Weak: 0
+------------------------------------
+Enter a move: play Defend
+MONSTERS
+--------------
+Monster 0
+Louse: 6/25 HP
+--------------
+
+
+
+PLAYER
+--------------------------
+IronClad
+HP: 79/80
+Energy: 0
+Hand: [Defend(), Defend()]
+Block: 10 Strength: 0 Vulnerable: 0 Weak: 0
+--------------------------
+Enter a move: end turn
+MONSTERS
+--------------
+Monster 0
+Louse: 6/25 HP
+--------------
+
+
+
+PLAYER
+--------------------------------------------------------
+IronClad
+HP: 79/80
+Energy: 3
+Hand: [Strike(), Defend(), Strike(), Defend(), Strike()]
+Block: 0 Strength: 0 Vulnerable: 0 Weak: 0
+--------------------------------------------------------
+Enter a move: play Strike 0
+MONSTERS
+
+
+
+PLAYER
+----------------------------------------------
+IronClad
+HP: 79/80
+Energy: 2
+Hand: [Defend(), Strike(), Defend(), Strike()]
+Block: 0 Strength: 0 Vulnerable: 0 Weak: 0
+----------------------------------------------
+
+You have won the encounter!
+
+New encounter!
+
+MONSTERS
+---------------
+Monster 1
+Louse: 30/30 HP
+---------------
+
+
+
+PLAYER
+--------------------------------------------------------
+IronClad
+HP: 79/80
+Energy: 3
+Hand: [Strike(), Strike(), Defend(), Strike(), Defend()]
+Block: 0 Strength: 0 Vulnerable: 0 Weak: 0
+--------------------------------------------------------
+Enter a move: play Strike 0
+
+Card application failed.
+
+Enter a move: play Strike 1
+MONSTERS
+---------------
+Monster 1
+Louse: 24/30 HP
+---------------
+
+
+
+PLAYER
+----------------------------------------------
+IronClad
+HP: 79/80
+Energy: 2
+Hand: [Strike(), Defend(), Strike(), Defend()]
+Block: 0 Strength: 0 Vulnerable: 0 Weak: 0
+----------------------------------------------
+Enter a move: play Strike 1
+MONSTERS
+---------------
+Monster 1
+Louse: 18/30 HP
+---------------
+
+
+
+PLAYER
+------------------------------------
+IronClad
+HP: 79/80
+Energy: 1
+Hand: [Defend(), Strike(), Defend()]
+Block: 0 Strength: 0 Vulnerable: 0 Weak: 0
+------------------------------------
+Enter a move: play Defend
+MONSTERS
+---------------
+Monster 1
+Louse: 18/30 HP
+---------------
+
+
+
+PLAYER
+--------------------------
+IronClad
+HP: 79/80
+Energy: 0
+Hand: [Strike(), Defend()]
+Block: 5 Strength: 0 Vulnerable: 0 Weak: 0
+--------------------------
+Enter a move: end turn
+MONSTERS
+---------------
+Monster 1
+Louse: 18/30 HP
+---------------
+
+
+
+PLAYER
+------------------------------------------------------
+IronClad
+HP: 79/80
+Energy: 3
+Hand: [Defend(), Strike(), Strike(), Defend(), Bash()]
+Block: 0 Strength: 0 Vulnerable: 0 Weak: 0
+------------------------------------------------------
+Enter a move: play Strike 1
+MONSTERS
+---------------
+Monster 1
+Louse: 12/30 HP
+---------------
+
+
+
+PLAYER
+--------------------------------------------
+IronClad
+HP: 79/80
+Energy: 2
+Hand: [Defend(), Strike(), Defend(), Bash()]
+Block: 0 Strength: 0 Vulnerable: 0 Weak: 0
+--------------------------------------------
+Enter a move: play Bash 1
+MONSTERS
+--------------
+Monster 1
+Louse: 5/30 HP
+--------------
+
+
+
+PLAYER
+------------------------------------
+IronClad
+HP: 79/80
+Energy: 0
+Hand: [Defend(), Strike(), Defend()]
+Block: 5 Strength: 0 Vulnerable: 0 Weak: 0
+------------------------------------
+Enter a move: end turn 
+MONSTERS
+--------------
+Monster 1
+Louse: 5/30 HP
+--------------
+
+
+
+PLAYER
+------------------------------------------------------
+IronClad
+HP: 79/80
+Energy: 3
+Hand: [Defend(), Strike(), Bash(), Strike(), Defend()]
+Block: 0 Strength: 0 Vulnerable: 0 Weak: 0
+------------------------------------------------------
+Enter a move: play Bash 1
+MONSTERS
+
+
+
+PLAYER
+----------------------------------------------
+IronClad
+HP: 79/80
+Energy: 1
+Hand: [Defend(), Strike(), Strike(), Defend()]
+Block: 5 Strength: 0 Vulnerable: 0 Weak: 0
+----------------------------------------------
+
+You have won the encounter!
+
+
+You have won the game!

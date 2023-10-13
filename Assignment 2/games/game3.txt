@@ -1,0 +1,12 @@
+Encounter 1
+JawWorm 50
+
+Encounter 2
+Cultist 30
+Louse 20
+Louse 20
+
+Encounter 3
+JawWorm 50
+Cultist 50
+Louse 50

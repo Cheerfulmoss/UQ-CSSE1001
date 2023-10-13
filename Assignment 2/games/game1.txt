@@ -1,0 +1,5 @@
+Encounter 1
+Louse 25
+
+Encounter 2
+Louse 30

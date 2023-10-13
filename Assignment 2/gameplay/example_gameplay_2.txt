@@ -1,0 +1,418 @@
+Enter a player type: silent
+Enter a game file: games/game2.txt
+New encounter!
+
+MONSTERS
+---------------
+Monster 0
+Louse: 25/25 HP
+---------------
+---------------
+Monster 1
+Louse: 25/25 HP
+---------------
+
+
+
+PLAYER
+----------------------------------------------------------
+Silent
+HP: 70/70
+Energy: 3
+Hand: [Strike(), Strike(), Defend(), Survivor(), Defend()]
+Block: 0 Strength: 0 Vulnerable: 0 Weak: 0
+----------------------------------------------------------
+Enter a move: inspect deck
+
+[Strike(), Strike(), Strike(), Defend(), Defend(), Defend(), Neutralize()]
+
+Enter a move: describe Survivor
+
+Gain 8 block and 1 strength.
+
+Enter a move: play Survivor
+MONSTERS
+---------------
+Monster 0
+Louse: 25/25 HP
+---------------
+---------------
+Monster 1
+Louse: 25/25 HP
+---------------
+
+
+
+PLAYER
+----------------------------------------------
+Silent
+HP: 70/70
+Energy: 2
+Hand: [Strike(), Strike(), Defend(), Defend()]
+Block: 8 Strength: 1 Vulnerable: 0 Weak: 0
+----------------------------------------------
+Enter a move: play Strike 1
+MONSTERS
+---------------
+Monster 0
+Louse: 25/25 HP
+---------------
+---------------
+Monster 1
+Louse: 18/25 HP
+---------------
+
+
+
+PLAYER
+------------------------------------
+Silent
+HP: 70/70
+Energy: 1
+Hand: [Strike(), Defend(), Defend()]
+Block: 8 Strength: 1 Vulnerable: 0 Weak: 0
+------------------------------------
+Enter a move: play Strike 0
+MONSTERS
+---------------
+Monster 0
+Louse: 18/25 HP
+---------------
+---------------
+Monster 1
+Louse: 18/25 HP
+---------------
+
+
+
+PLAYER
+--------------------------
+Silent
+HP: 70/70
+Energy: 0
+Hand: [Defend(), Defend()]
+Block: 8 Strength: 1 Vulnerable: 0 Weak: 0
+--------------------------
+Enter a move: end turn 
+MONSTERS
+---------------
+Monster 0
+Louse: 18/25 HP
+---------------
+---------------
+Monster 1
+Louse: 18/25 HP
+---------------
+
+
+
+PLAYER
+------------------------------------------------------------
+Silent
+HP: 65/70
+Energy: 3
+Hand: [Defend(), Defend(), Neutralize(), Strike(), Strike()]
+Block: 0 Strength: 1 Vulnerable: 0 Weak: 0
+------------------------------------------------------------
+Enter a move: describe Neutralize
+
+Deal 3 damage. Apply 1 weak. Apply 2 vulnerable.
+
+Enter a move: play Neutralize 0
+MONSTERS
+---------------
+Monster 0
+Louse: 12/25 HP
+---------------
+---------------
+Monster 1
+Louse: 18/25 HP
+---------------
+
+
+
+PLAYER
+----------------------------------------------
+Silent
+HP: 65/70
+Energy: 3
+Hand: [Defend(), Defend(), Strike(), Strike()]
+Block: 0 Strength: 1 Vulnerable: 0 Weak: 0
+----------------------------------------------
+Enter a move: play Strike 0
+MONSTERS
+--------------
+Monster 0
+Louse: 2/25 HP
+--------------
+---------------
+Monster 1
+Louse: 18/25 HP
+---------------
+
+
+
+PLAYER
+------------------------------------
+Silent
+HP: 65/70
+Energy: 2
+Hand: [Defend(), Defend(), Strike()]
+Block: 0 Strength: 1 Vulnerable: 0 Weak: 0
+------------------------------------
+Enter a move: play Strike 0
+MONSTERS
+---------------
+Monster 1
+Louse: 18/25 HP
+---------------
+
+
+
+PLAYER
+--------------------------
+Silent
+HP: 65/70
+Energy: 1
+Hand: [Defend(), Defend()]
+Block: 0 Strength: 1 Vulnerable: 0 Weak: 0
+--------------------------
+Enter a move: play Defend
+MONSTERS
+---------------
+Monster 1
+Louse: 18/25 HP
+---------------
+
+
+
+PLAYER
+----------------
+Silent
+HP: 65/70
+Energy: 0
+Hand: [Defend()]
+Block: 5 Strength: 1 Vulnerable: 0 Weak: 0
+----------------
+Enter a move: end turn
+MONSTERS
+---------------
+Monster 1
+Louse: 18/25 HP
+---------------
+
+
+
+PLAYER
+------------------------------------------------------------
+Silent
+HP: 63/70
+Energy: 3
+Hand: [Strike(), Defend(), Defend(), Neutralize(), Strike()]
+Block: 0 Strength: 1 Vulnerable: 0 Weak: 0
+------------------------------------------------------------
+Enter a move: play Neutralize 1
+MONSTERS
+---------------
+Monster 1
+Louse: 12/25 HP
+---------------
+
+
+
+PLAYER
+----------------------------------------------
+Silent
+HP: 63/70
+Energy: 3
+Hand: [Strike(), Defend(), Defend(), Strike()]
+Block: 0 Strength: 1 Vulnerable: 0 Weak: 0
+----------------------------------------------
+Enter a move: play Strike 1
+MONSTERS
+--------------
+Monster 1
+Louse: 2/25 HP
+--------------
+
+
+
+PLAYER
+------------------------------------
+Silent
+HP: 63/70
+Energy: 2
+Hand: [Defend(), Defend(), Strike()]
+Block: 0 Strength: 1 Vulnerable: 0 Weak: 0
+------------------------------------
+Enter a move: play Strike 1
+MONSTERS
+
+
+
+PLAYER
+--------------------------
+Silent
+HP: 63/70
+Energy: 1
+Hand: [Defend(), Defend()]
+Block: 0 Strength: 1 Vulnerable: 0 Weak: 0
+--------------------------
+
+You have won the encounter!
+
+New encounter!
+
+MONSTERS
+-----------------
+Monster 2
+Cultist: 50/50 HP
+-----------------
+
+
+
+PLAYER
+------------------------------------------------------------
+Silent
+HP: 63/70
+Energy: 3
+Hand: [Neutralize(), Strike(), Defend(), Defend(), Strike()]
+Block: 0 Strength: 1 Vulnerable: 0 Weak: 0
+------------------------------------------------------------
+Enter a move: play Neutralize 2
+MONSTERS
+-----------------
+Monster 2
+Cultist: 44/50 HP
+-----------------
+
+
+
+PLAYER
+----------------------------------------------
+Silent
+HP: 63/70
+Energy: 3
+Hand: [Strike(), Defend(), Defend(), Strike()]
+Block: 0 Strength: 1 Vulnerable: 0 Weak: 0
+----------------------------------------------
+Enter a move: play Strike 2
+MONSTERS
+-----------------
+Monster 2
+Cultist: 34/50 HP
+-----------------
+
+
+
+PLAYER
+------------------------------------
+Silent
+HP: 63/70
+Energy: 2
+Hand: [Defend(), Defend(), Strike()]
+Block: 0 Strength: 1 Vulnerable: 0 Weak: 0
+------------------------------------
+Enter a move: play Strike 2
+MONSTERS
+-----------------
+Monster 2
+Cultist: 24/50 HP
+-----------------
+
+
+
+PLAYER
+--------------------------
+Silent
+HP: 63/70
+Energy: 1
+Hand: [Defend(), Defend()]
+Block: 0 Strength: 1 Vulnerable: 0 Weak: 0
+--------------------------
+Enter a move: play Defend
+MONSTERS
+-----------------
+Monster 2
+Cultist: 24/50 HP
+-----------------
+
+
+
+PLAYER
+----------------
+Silent
+HP: 63/70
+Energy: 0
+Hand: [Defend()]
+Block: 5 Strength: 1 Vulnerable: 0 Weak: 0
+----------------
+Enter a move: end turn
+MONSTERS
+-----------------
+Monster 2
+Cultist: 24/50 HP
+-----------------
+
+
+
+PLAYER
+----------------------------------------------------------
+Silent
+HP: 63/70
+Energy: 3
+Hand: [Strike(), Strike(), Defend(), Survivor(), Strike()]
+Block: 0 Strength: 1 Vulnerable: 0 Weak: 0
+----------------------------------------------------------
+Enter a move: play Survivor
+MONSTERS
+-----------------
+Monster 2
+Cultist: 24/50 HP
+-----------------
+
+
+
+PLAYER
+----------------------------------------------
+Silent
+HP: 63/70
+Energy: 2
+Hand: [Strike(), Strike(), Defend(), Strike()]
+Block: 8 Strength: 2 Vulnerable: 0 Weak: 0
+----------------------------------------------
+Enter a move: play Strike 2
+MONSTERS
+-----------------
+Monster 2
+Cultist: 12/50 HP
+-----------------
+
+
+
+PLAYER
+------------------------------------
+Silent
+HP: 63/70
+Energy: 1
+Hand: [Strike(), Defend(), Strike()]
+Block: 8 Strength: 2 Vulnerable: 0 Weak: 0
+------------------------------------
+Enter a move: play Strike 2
+MONSTERS
+
+
+
+PLAYER
+--------------------------
+Silent
+HP: 63/70
+Energy: 0
+Hand: [Defend(), Strike()]
+Block: 8 Strength: 2 Vulnerable: 0 Weak: 0
+--------------------------
+
+You have won the encounter!
+
+
+You have won the game!
